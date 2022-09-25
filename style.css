@@ -1,0 +1,44 @@
+.vm-main{
+    width: 360px;
+    height: 545px;
+
+}
+
+.Cola{
+    width: 94px;
+    height: 130px;
+    background-color: white;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+}
+
+.Cola-img{
+    width: 36px;
+    height: 65px;
+    margin: 11px 29px 6px 29px ;
+
+}
+
+.vm-price{
+    background: #6327FE;
+    color: #FFFFFF;
+    width: 39px;
+    height: 12px;
+    padding: 5px 16px 5px  15px;
+    margin: 7px 11px 9px 13px;
+    border-radius: 50px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;    
+}
+
+.vm-name{
+    font-family: Noto Sans KR;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+
+}
