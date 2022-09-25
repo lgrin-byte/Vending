@@ -1,22 +1,59 @@
-.vm-main{
-    width: 360px;
-    height: 545px;
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EAE8FE;
+    
+}
+
+.logo{
+
+    width: 436px;
+    height: 204px;
+    
 
 }
 
+.vm-main{
+
+    background: #FFFFFF;
+
+}
+
+.vm-wrapper-Cola{
+    display: grid;
+    gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .Cola{
-    width: 94px;
-    height: 130px;
     background-color: white;
     border: 1px solid #BDBDBD;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
     border-radius: 10px;
+    width: 96px;
+    height: 132px;
+}
+.Cola:nth-child(1){
+    border: 3px solid #6327FE;
+    border-radius: 10px;
+    width: 100px;
+    height: 136px;
+}
+.Cola:nth-child(5){
+    border: 3px solid #6327FE;
+    border-radius: 10px;
+    width: 100px;
+    height: 136px;
 }
 
 .Cola-img{
     width: 36px;
     height: 65px;
-    margin: 11px 29px 6px 29px ;
-
+}
+.vm-name{
+    margin: 6px 0 7px;
 }
 
 .vm-price{
@@ -41,4 +78,10 @@
     line-height: 13px;
     text-align: center;
 
+}
+
+.vm-bal{
+    display: flex;
+    flex-direction: row;
+    
 }
